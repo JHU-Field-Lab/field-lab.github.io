@@ -11,7 +11,7 @@ role-tables:
   - roles: [grad]
     width: 8
     image: true
-- - roles: [collab, ugrad, ugrad-alum]
+- - roles: [collab, master, ugrad]
     width: 5
     image: false
   - roles: [alum]
@@ -22,8 +22,7 @@ role-tables:
 
 <div class="jumbotron">
     <p>
-        The <b>Awesome Research Group</b> at <b>Example U</b> does all sorts of
-        research. Here is a place where we tell you exactly what that is!
+        Description of Field Lab
     </p>
 </div>
 
@@ -43,7 +42,15 @@ role-tables:
     {% endif %}
 </section>
 
-<section>
+<div id="publications">
+    <h2>Publications</h2>
+    {% include pubs.html %}
+    <p>
+        <a href="{{ site.base }}/bib/pubs.bib">Download BibTeX.</a>
+    </p>
+</div>
+
+<!-- <section>
     <h2>Research</h2>
     <div class="card-columns">
         {% comment %}
@@ -57,7 +64,7 @@ role-tables:
             {% endif %}
         {% endfor %}
     </div>
-</section>
+</section> -->
 
 <div id="people">
     <h2>People</h2>

@@ -1,5 +1,5 @@
-name: Awesome Research Group
-url: http://awesome.example.edu
+name: Field Lab
+url: http://field-lab.github.io
 
 exclude: [bibble, README.md, Makefile, screenshot.png]
 
@@ -13,12 +13,10 @@ permalink: /blog/:year/:month/:day/:title.html
 roles:
   - key: faculty
     name: Faculty
-  - key: staff
-    name: Staff
-  - key: postdoc
-    name: Researchers
   - key: grad
     name: Graduate Students
+  - key: master
+    name: Master Students
   - key: ugrad
     name: Undergraduate Students
   - key: ugrad-alum
