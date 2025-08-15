@@ -1,5 +1,5 @@
 name: Field Lab
-url: http://field-lab.github.io
+url: http://jhu-field-lab.github.io
 
 exclude: [bibble, README.md, Makefile, screenshot.png]
 
@@ -43,7 +43,7 @@ navigation:
     link: /
   - title: People
     link: /#people
-  - title: Research
-    link: /research.html
+  #- title: Research
+  #  link: /research.html
   - title: Publications
     link: /publications.html
