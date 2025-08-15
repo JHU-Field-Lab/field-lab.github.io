@@ -2,50 +2,89 @@
 prof-a:
     display_name: "Anjalie Field"
     webpage: "https://anjalief.github.io/"
+    image: /img/people/anjaliefield.jpg
     role: faculty
 
 grad-a:
     display_name: "Krithika Ramesh"
+    github: "kr-ramesh"
+    image: /img/people/krithikaramesh.jpg
+    webpage: "https://kr-ramesh.github.io/"
     role: grad
 
 grad-b:
-    display_name: "Jamie Rosas-Smith"
+    display_name: "Mian Zhong"
+    image: /img/people/mianzhong.JPG
+    github: "mianzg"
     role: grad
 
 grad-c:
-    display_name: "Mian Zhong"
+    display_name: "Zihao Zhao"
+    webpage: "https://zzhao71.github.io/"
+    image: /img/people/zihaozhao.jpg
+    github: "zzhao71"
     role: grad
 
+grad-d:
+    display_name: "Cole Molloy"
+    role: grad
+
+grad-e:
+    display_name: "Jonathan Ivey"
+    webpage: "https://jonathanivey.github.io/"
+    image: /img/people/jonathanivey.jpeg
+    github: "jonathanivey"
+    role: grad
+
+master-alum-a:
+    display_name: "Pulkit Madaan"
+    role: alum
+    bio: "MS @ JHU -> Google"
+
+master-alum-b:
+    display_name: "Moksh Shukla"
+    role: alum
+    bio: "MS @ JHU -> American Express"
+
+master-alum-c:
+    display_name: "Pristina Wang"
+    role: alum
+    bio: "MS @ JHU"
+
+master-alum-d:
+    display_name: "Taryn Wong"
+    role: alum
+    bio: "MS @ JHU"
+
+ugrad-alum-a:
+    display_name: "Rojin Ziaei"
+    role: alum
+    bio: "UG @ ?? -> Capital One"
+
 alum-a:
-    display_name: ""
+    display_name: "Jamie Rosas-Smith"
     role: alum
     bio: ""
 
-collab-a:
-    display_name: ""
-    role: collab
-master-a:
-    display_name: "Pulkit Madaan"
-    role: master
-master-b:
-    display_name: "Moksh Shukla"
-    role: master
-master-c:
-    display_name: "Pristina Wang"
-    role: master
-master-d:
-    display_name: "Taryn Wong"
-    role: master    
-ugrad-a:
-    display_name: "Zihao Zhao"
-    role: ugrad
-ugrad-b:
-    display_name: "Rojin Ziaei"
-    role: ugrad
+#collab-a:
+#    display_name: ""
+#    role: collab
 
-ugrad-alum-a:
-    display_name: "Past Ugrad A"
-    role: ugrad-alum
+master-a:
+    display_name: "Yaxuan Ren"
+    image: /img/people/ashleyren.jpg
+    role: master
+
+master-b:
+    display_name: "Sandesh Rangreji"
+    github: "https://github.com/SandeshRangreji"
+    image: /img/people/sandeshrangreji.jpeg
+    role: master
+
+#ugrad-a:
+#    display_name: "Placeholder"
+#    role: ugrad
+
 
 ugrad-alum-b:
     display_name: "Past Ugrad Student B With Long Name"

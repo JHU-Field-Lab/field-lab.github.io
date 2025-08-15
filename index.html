@@ -11,11 +11,11 @@ role-tables:
   - roles: [grad]
     width: 8
     image: true
-- - roles: [collab, master, ugrad]
-    width: 5
-    image: false
+- - roles: [master]
+    width: 4
+    image: true
   - roles: [alum]
-    width: 7
+    width: 8
     image: false
 
 ---
@@ -41,14 +41,6 @@ role-tables:
         </p>
     {% endif %}
 </section>
-
-<div id="publications">
-    <h2>Publications</h2>
-    {% include pubs.html %}
-    <p>
-        <a href="{{ site.base }}/bib/pubs.bib">Download BibTeX.</a>
-    </p>
-</div>
 
 <!-- <section>
     <h2>Research</h2>
@@ -79,4 +71,12 @@ role-tables:
             {% endfor %}
         </section>
     {% endfor %}
+</div>
+
+<div id="publications">
+    <h2>Publications</h2>
+    {% include pubs.html %}
+    <p>
+        <a href="{{ site.base }}/bib/pubs.bib">Download BibTeX.</a>
+    </p>
 </div>
