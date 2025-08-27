@@ -5,6 +5,18 @@ prof-a:
     image: /img/people/anjaliefield.jpg
     role: faculty
 
+grad-d:
+    display_name: "Cole Molloy"
+    role: grad
+
+grad-e:
+    display_name: "Jonathan Ivey"
+    webpage: "https://jonathanivey.github.io/"
+    image: /img/people/jonathanivey.jpeg
+    github: "jonathanivey"
+    role: grad
+    coadvised: "Co-advisor: Ziang Xiao"
+
 grad-a:
     display_name: "Krithika Ramesh"
     github: "kr-ramesh"
@@ -25,18 +37,6 @@ grad-c:
     github: "zzhao71"
     role: grad
     coadvised: "Co-advisor: Yinzhi Cao"
-
-grad-d:
-    display_name: "Cole Molloy"
-    role: grad
-
-grad-e:
-    display_name: "Jonathan Ivey"
-    webpage: "https://jonathanivey.github.io/"
-    image: /img/people/jonathanivey.jpeg
-    github: "jonathanivey"
-    role: grad
-    coadvised: "Co-advisor: Ziang Xiao"
 
 master-alum-c:
     display_name: "Pristina Wang"
@@ -78,15 +78,15 @@ postdoc-a:
     role: postdoc
     webpage: "https://www.cs.cornell.edu/~kvank/"
 
-master-a:
-    display_name: "Yaxuan Ren"
-    image: /img/people/ashleyren.jpg
-    role: master
-
 master-b:
     display_name: "Sandesh Rangreji"
     github: "https://github.com/SandeshRangreji"
     image: /img/people/sandeshrangreji.jpeg
+    role: master
+
+master-a:
+    display_name: "Yaxuan Ren"
+    image: /img/people/ashleyren.jpg
     role: master
 
 #ugrad-a:
