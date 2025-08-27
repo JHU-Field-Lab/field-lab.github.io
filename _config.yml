@@ -17,14 +17,16 @@ roles:
     name: Graduate Students
   - key: master
     name: Master Students
+  - key: postdoc
+    name: Postdocs
   - key: alum
     name: Alumni
     #- key: ugrad
   #  name: Undergraduate Students
   #- key: ugrad-alum
   #  name: Past Undergraduate Students
-  #- key: collab
-  #  name: Collaborators
+  - key: collab
+    name: Collaborators
 
 # Number of news stories on the front page.
 front_page_news: 8

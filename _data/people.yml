@@ -24,6 +24,7 @@ grad-c:
     image: /img/people/zihaozhao.jpg
     github: "zzhao71"
     role: grad
+    coadvised: "Co-advisor: Yinzhi Cao"
 
 grad-d:
     display_name: "Cole Molloy"
@@ -35,21 +36,22 @@ grad-e:
     image: /img/people/jonathanivey.jpeg
     github: "jonathanivey"
     role: grad
+    coadvised: "Co-advisor: Ziang Xiao"
 
-master-alum-a:
-    display_name: "Pulkit Madaan"
+master-alum-c:
+    display_name: "Pristina Wang"
     role: alum
-    bio: "MS @ JHU -> Google"
+    bio: "MS @ JHU -> Amazon"
 
 master-alum-b:
     display_name: "Moksh Shukla"
     role: alum
     bio: "MS @ JHU -> American Express"
 
-master-alum-c:
-    display_name: "Pristina Wang"
+master-alum-a:
+    display_name: "Pulkit Madaan"
     role: alum
-    bio: "MS @ JHU"
+    bio: "MS @ JHU -> Google"
 
 master-alum-d:
     display_name: "Taryn Wong"
@@ -59,16 +61,22 @@ master-alum-d:
 ugrad-alum-a:
     display_name: "Rojin Ziaei"
     role: alum
-    bio: "UG @ ?? -> Capital One"
+    bio: "UG @ UMD -> Capital One"
 
 alum-a:
     display_name: "Jamie Rosas-Smith"
     role: alum
-    bio: ""
+    bio: "PhD @ JHU"
 
-#collab-a:
-#    display_name: ""
-#    role: collab
+collab-a:
+    display_name: "Kaavya C"
+    role: collab
+    bio: "PhD @ JHU"
+
+postdoc-a:
+    display_name: "Katherine Van Koevering"
+    role: postdoc
+    webpage: "https://www.cs.cornell.edu/~kvank/"
 
 master-a:
     display_name: "Yaxuan Ren"
@@ -86,6 +94,6 @@ master-b:
 #    role: ugrad
 
 
-ugrad-alum-b:
-    display_name: "Past Ugrad Student B With Long Name"
-    role: ugrad-alum
+#ugrad-alum-b:
+#    display_name: "Past Ugrad Student B With Long Name"
+#    role: ugrad-alum

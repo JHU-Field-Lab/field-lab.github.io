@@ -38,6 +38,11 @@
                     {{ social_icons }}
                 </span>
             </h6>
+                {% if person.coadvised %}
+                    <div style="color: #888; font-size: 0.95em; margin-bottom: 4px;">
+                        {{ person.coadvised }}
+                    </div>
+                {% endif %}
             {% if person.bio %}
                 <div class="bio">{{ person.bio }}</div>
             {% endif %}
@@ -45,12 +50,24 @@
     </div>
 {% else %}
     <div class="person person-without-image">
-        {{ name }}
-        <span class="social-icons">
-            {{ social_icons }}
-        </span>
-        {% if person.bio %}
-            <span class="bio">{{ person.bio }}</span>
+        {% if person.role == "alum" and person.bio %}
+            <div style="display: flex; align-items: center;">
+                <div style="min-width: 160px; text-align: left;">{{ name }}</div>
+                <div style="margin-left: 16px; color: #444; font-size: 0.98em; font-style: italic;">{{ person.bio }}</div>
+            </div>
+        {% else %}  
+            {{ name }}
+            <span class="social-icons">
+                {{ social_icons }}
+            </span>
+            {% if person.coadvised %}
+                <span style="color: #888; font-size: 0.95em; margin-bottom: 4px;">
+                    {{ person.coadvised }}
+                </span>
+            {% endif %}
+            {% if person.bio %}
+                <span class="bio">{{ person.bio }}</span>
+            {% endif %}
         {% endif %}
     </div>
 {% endif %}
