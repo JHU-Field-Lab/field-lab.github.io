@@ -6,7 +6,8 @@ prof-a:
     role: faculty
 
 grad-d:
-    display_name: "Cole Molloy"
+    display_name: "(Robert) Cole Molloy"
+    image: /img/people/colemolloy.JPG
     role: grad
 
 grad-e:
